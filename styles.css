@@ -1,0 +1,20 @@
+:root {
+    --font-size-h1: 3rem;
+    --font-size-p: 1.25rem;
+}
+
+@media(min-width: 800px) {
+    :root {
+        --font-size-h1: 2rem;
+        --font-size-p: 1.25rem;
+    }
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+
+p {
+    font-size: var(--font-size-p);
+    text-align: justify;
+}
